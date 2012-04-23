@@ -53,7 +53,9 @@
 		// add the label as a child to this Layer
 		[self addChild: label];
 		
-		
+        CCSprite *spaceCargoShip = [CCSprite spriteWithFile:@"SpaceCargoShip.png"];
+        [spaceCargoShip setPosition:ccp(size.width/2, size.height/2)];
+        [self addChild:spaceCargoShip];
 		
 		//
 		// Leaderboards and Achievements
