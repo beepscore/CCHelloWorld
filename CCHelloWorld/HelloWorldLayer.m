@@ -56,6 +56,10 @@
         CCSprite *spaceCargoShip = [CCSprite spriteWithFile:@"SpaceCargoShip.png"];
         [spaceCargoShip setPosition:ccp(size.width/2, size.height/2)];
         [self addChild:spaceCargoShip];
+        
+        id moveAction = [CCMoveTo actionWithDuration:5.0f
+                                            position:ccp(0, size.height/2)];
+        [spaceCargoShip runAction:moveAction];
 		
 		//
 		// Leaderboards and Achievements
