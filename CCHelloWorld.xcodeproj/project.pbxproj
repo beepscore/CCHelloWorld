@@ -1054,11 +1054,13 @@
 				GCC_PREFIX_HEADER = CCHelloWorld/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"CCHelloWorld/libs/kazmath/include\"";
 				INFOPLIST_FILE = CCHelloWorld/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1072,11 +1074,13 @@
 				GCC_PREFIX_HEADER = CCHelloWorld/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"CCHelloWorld/libs/kazmath/include\"";
 				INFOPLIST_FILE = CCHelloWorld/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
