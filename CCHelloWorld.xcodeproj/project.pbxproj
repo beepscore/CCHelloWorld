@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE7EACAE1545263600CE605B /* SpaceCargoShip.png in Resources */ = {isa = PBXBuildFile; fileRef = DE7EACAD1545263600CE605B /* SpaceCargoShip.png */; };
 		DEACCB48154524EE00F3943B /* README in Resources */ = {isa = PBXBuildFile; fileRef = DEACCB47154524EE00F3943B /* README */; };
 		DEC414EA1545225F00F581C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC414E91545225F00F581C6 /* QuartzCore.framework */; };
 		DEC414EC1545225F00F581C6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC414EB1545225F00F581C6 /* OpenGLES.framework */; };
@@ -133,6 +134,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE7EACAD1545263600CE605B /* SpaceCargoShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SpaceCargoShip.png; path = Resources/SpaceCargoShip.png; sourceTree = "<group>"; };
 		DEACCB47154524EE00F3943B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		DEC414E51545225F00F581C6 /* CCHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC414E91545225F00F581C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -463,6 +465,7 @@
 		DEC414FC1545225F00F581C6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DE7EACAD1545263600CE605B /* SpaceCargoShip.png */,
 				DEC414FD1545225F00F581C6 /* Default.png */,
 				DEC414FF1545225F00F581C6 /* fps_images.png */,
 				DEC415011545225F00F581C6 /* fps_images-hd.png */,
@@ -883,6 +886,7 @@
 				DEC415131545225F00F581C6 /* iTunesArtwork in Resources */,
 				DEC4164C1545226100F581C6 /* ChangeLog in Resources */,
 				DEACCB48154524EE00F3943B /* README in Resources */,
+				DE7EACAE1545263600CE605B /* SpaceCargoShip.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
